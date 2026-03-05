@@ -6,10 +6,10 @@ Este proyecto tiene como objetivo analizar el fenómeno de la evasión de client
 ## 🚀 Cómo ejecutar el proyecto en Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gaby46Pe/challenge2-datascience-latam-gap/blob/main/TelecomX_LATAM_2.ipynb)
 Para replicar este análisis y ejecutar el modelo predictivo, sigue estos pasos:
-Abrir el Notebook: Haz clic en el botón "Open In Colab" al inicio de este documento.
-Cargar los Datos: Ejecutar la celda de carga de datos ya que está referenciada al archivo csv del repositorio. 
-Instalar Librerías (opcional): El notebook incluye una celda inicial para instalar imblearn (necesaria para SMOTE) en caso de que el entorno no la tenga.
-Ejecutar todo: Ir al menú superior Entorno de ejecución > Ejecutar todas.
+- **Abrir el Notebook**: Haz clic en el botón "Open In Colab" al inicio de este documento.
+- **Cargar los Datos**: Ejecutar la celda de carga de datos ya que está referenciada al archivo csv del repositorio. 
+- **Instalar Librerías (opcional)**: El notebook incluye una celda inicial para instalar imblearn (necesaria para SMOTE) en caso de que el entorno no la tenga. Se instala con pip install imbalanced-learn.
+- **Ejecutar todo**: Ir al menú superior Entorno de ejecución > Ejecutar todas.
 
 ## 📂 Estructura del Proyecto
 La organización de los archivos es la siguiente:
