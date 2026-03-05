@@ -3,8 +3,13 @@
 ## 🎯 Propósito del Análisis
 Este proyecto tiene como objetivo analizar el fenómeno de la evasión de clientes (**Churn**) en la empresa TelecomX. El análisis busca identificar patrones de comportamiento, perfiles de clientes con mayor riesgo y factores críticos que influyen en la decisión de cancelar el servicio.  
 
-## Abre en Google Colab
+## 🚀 Cómo ejecutar el proyecto en Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gaby46Pe/challenge2-datascience-latam-gap/blob/main/TelecomX_LATAM_2.ipynb)
+Para replicar este análisis y ejecutar el modelo predictivo, sigue estos pasos:
+Abrir el Notebook: Haz clic en el botón "Open In Colab" al inicio de este documento.
+Cargar los Datos: Ejecutar la celda de carga de datos ya que está referenciada al archivo csv del repositorio. 
+Instalar Librerías (opcional): El notebook incluye una celda inicial para instalar imblearn (necesaria para SMOTE) en caso de que el entorno no la tenga.
+Ejecutar todo: Ir al menú superior Entorno de ejecución > Ejecutar todas.
 
 ## 📂 Estructura del Proyecto
 La organización de los archivos es la siguiente:
@@ -14,10 +19,13 @@ La organización de los archivos es la siguiente:
 - `.gitignore`: Archivo para evitar la subida de archivos temporales de Python y entornos virtuales.
 - `README.md`: Este archivo, con la descripción general del proyecto.
 
-# Tecnologías Utilizadas: 
-**Lenguaje**: Python 3.x
-**Librerías**: Pandas, Matplotlib, Seaborn, Scikit-Learn, Imbalanced-Learn (SMOTE).
-
+# Tecnologías y Librerías Utilizadas: 
+**Python 3.x**: Lenguaje principal.
+**Pandas & Numpy**: Para la manipulación y limpieza de datos.
+**Seaborn & Matplotlib**: Para el Análisis Exploratorio de Datos (EDA) y visualizaciones.
+**Scikit-Learn**: Para el escalado de datos, división de sets y entrenamiento de modelos (Regresión Logística y Random Forest).
+**Imbalanced-Learn (SMOTE)**: Técnica esencial utilizada para balancear la muestra de Churn.
+ 
 ## Introducción
 El objetivo de este trabajo fue procesar los datos de TelecomX para entender por qué los clientes están dejando la empresa.
 
