@@ -92,16 +92,20 @@ Usamos una Matriz de Correlación para visualizar cómo se relacionan las variab
 
 #### Importancia de las Variables
 ![Importancia de Variables](importancia_variables.png)
-
-#### Matriz de Confusión - Regresión Logística y Random Forest
-![Matriz de Confusión -Regresión Logística](matriz_confusion_regresion_logistica.png)
-![Matriz de Confusión -Random Forest](matriz_confusion_random_forest.png)
-
+ 
 # Evaluación y Matriz de Confusión para ambos modelos
 Cuadrantes de la Regresión Logística:
 Verdaderos Positivos (249 aprox.): Clientes que detectamos a tiempo y podemos salvar.
 Falsos Negativos (125 aprox.): Son clientes que se van sin que la empresa les ofrezca nada. Es el error más caro.
 Falsos Positivos (Clientes que el modelo cree que se van, pero se quedan): Clientes que recibirán una promoción de retención sin necesitarla, astar presupuesto de marketing en descuentos para gente que ya era fiel. Es un error de "desperdicio", pero menos grave que perder al cliente.
+
+## 📊 Resultados del Modelo
+
+### Matriz de Confusión: Regresión Logística
+![Matriz Logística](matriz_confusion_regresion_logistica.png)
+
+### Matriz de Confusión: Random Forest
+![Matriz Random Forest](matriz_confusion_random_forest.png)
 
 # Conclusión y Estrategia Sugerida
 *Justificación de la Elección del Modelo*
