@@ -93,8 +93,9 @@ Usamos una Matriz de Correlación para visualizar cómo se relacionan las variab
 #### Importancia de las Variables
 ![Importancia de Variables](importancia_variables.png)
 
-#### Matriz de Confusión - Regresión Logística
-![Matriz de Confusión](matriz_confusion.png)
+#### Matriz de Confusión - Regresión Logística y Random Forest
+![Matriz de Confusión -Regresión Logística](matriz_confusion_regresion_logistica.png)
+![Matriz de Confusión -Random Forest](matriz_confusion_random_forest.png)
 
 # Evaluación y Matriz de Confusión para ambos modelos
 Cuadrantes de la Regresión Logística:
