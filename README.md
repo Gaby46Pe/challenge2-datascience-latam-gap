@@ -4,7 +4,7 @@
 Este proyecto tiene como objetivo analizar el fenómeno de la evasión de clientes (**Churn**) en la empresa TelecomX. El análisis busca identificar patrones de comportamiento, perfiles de clientes con mayor riesgo y factores críticos que influyen en la decisión de cancelar el servicio.  
 
 ## Abre en Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Gaby46Pe/challenge2-datascience-latam-gap/blob/main/TelecomX_LATAM_2.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gaby46Pe/challenge2-datascience-latam-gap/blob/main/TelecomX_LATAM_2.ipynb)
 
 ## 📂 Estructura del Proyecto
 La organización de los archivos es la siguiente:
