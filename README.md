@@ -102,7 +102,7 @@ Falsos Positivos (Clientes que el modelo cree que se van, pero se quedan): Clien
 ## 📊 Resultados del Modelo
 
 ### Matriz de Confusión: Regresión Logística
-![Matriz Logística](matriz_confusion_regresion_logistica.png)
+![Matriz Logística](matriz_confusion_regresión_logística.png)
 
 ### Matriz de Confusión: Random Forest
 ![Matriz Random Forest](matriz_confusion_random_forest.png)
