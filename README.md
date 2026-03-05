@@ -88,6 +88,14 @@ Comparamos variables clave contra el Churn para ver comportamientos a través de
 # Análisis de Correlación
 Usamos una Matriz de Correlación para visualizar cómo se relacionan las variables numéricas con el Churn.
 
+### 📊 Visualización de Resultados Clave
+
+#### Importancia de las Variables
+![Importancia de Variables](importancia_variables.png)
+
+#### Matriz de Confusión - Regresión Logística
+![Matriz de Confusión](matriz_confusion.png)
+
 # Evaluación y Matriz de Confusión para ambos modelos
 Cuadrantes de la Regresión Logística:
 Verdaderos Positivos (249 aprox.): Clientes que detectamos a tiempo y podemos salvar.
@@ -111,7 +119,6 @@ Precisión (Clase Churn)	        56%	                    59%
 Recall (Clase Churn)	        67%	                    61%
 F1-Score (Clase Churn)	        0.61	                0.60
  
-
 # Estrategias de Retención 
 1. **Plan de Fidelización**
 Hallazgo: Los clientes con contrato "mes a mes" (Month-to-month) tienen la probabilidad de fuga más alta.
